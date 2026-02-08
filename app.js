@@ -17,12 +17,12 @@
     "SESSION_ID": {
       "description": "Add your Session ID here if you want to connect via session download",
       "required": false,
-      "value": ""
+      "value": "EF-PRIME-MD_iTE8N5WB"
     },
     "OWNER_NUMBER": {
       "description": "List of owner numbers (comma-separated), without '+' sign",
       "required": true,
-      "value": "265993702468"
+      "value": "256791845294"
     },
     "BOT_NAME": {
       "description": "Display name of your bot",
@@ -32,7 +32,7 @@
     "BOT_NUMBER": {
       "description": "WhatsApp phone number for pairing code (without '+' sign)",
       "required": true,
-      "value": "265993702468"
+      "value": "256791845294"
     },
     "PACKNAME": {
       "description": "Sticker pack name",
@@ -52,12 +52,12 @@
     "TIME_ZONE": {
       "description": "Your Time Zone (e.g., Africa/Malawi, UTC)",
       "required": false,
-      "value": "UTC"
+      "value": "EAT"
     },
     "PAIRING_CODE": {
       "description": "Set to 'false' to disable pairing code method",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "ALWAYS_ONLINE": {
       "description": "Set to 'on' to make the bot always appear online",
@@ -67,32 +67,32 @@
     "PRIME_GROUP": {
       "description": "Prime WhatsApp group link",
       "required": false,
-      "value": "https://chat.whatsapp.com/B6yhKpqsUCu9K2QHxvxD2W?mode=ac_t"
+      "value": "true"
     },
     "MONGODB_URI": {
       "description": "MongoDB connection string for database (optional)",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "HKEY": {
       "description": "Heroku API key - Get one from https://dashboard.heroku.com/account",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "HAPP": {
       "description": "Heroku app name (same as the app name above)",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "API_KEY": {
       "description": "Prime API key for advanced features",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "GEMINI_API_KEY": {
       "description": "Google Gemini AI API key for AI features",
       "required": false,
-      "value": ""
+      "value": "true"
     }
   },
   "buildpacks": [
